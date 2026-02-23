@@ -1,9 +1,11 @@
 # Visualizations
 
-## Hybrid Model Performance (Comparison Overview)
+## Hybrid Model Performance Comparison
 ![Hybrid Model Performance Comparison](../Images/cali.png)
-*This figure summarizes how the proposed hybrid framework performs compared to baseline FL approaches across key metrics.*
 
-## Heatmap Analysis (Non-IID / Client Heterogeneity)
-![Heatmap showing heterogeneity patterns](../Images/heatmap.png)
-*This heatmap highlights distribution/feature variations across clients, motivating the need for a hybrid strategy under non-IID settings.*
+This plot shows how the proposed hybrid federated learning model performs compared to the baseline approaches. You can clearly see the improvement across the key metrics, especially in terms of stability and reduced false positives.
+
+## Client-Level Heterogeneity (Heatmap)
+![Client Heterogeneity Heatmap](../Images/heatmap.png)
+
+This heatmap reflects the variation across clients and highlights the non-IID nature of the data. The differences across distributions help explain why a hybrid strategy is more effective in this setting.
